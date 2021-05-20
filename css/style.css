@@ -1,4 +1,9 @@
 /* COMMON */
+.py_35{
+    padding: 35px 0;
+}
+
+
 .py_100{
     padding: 100px 0;
 }
@@ -20,24 +25,22 @@
 
 
 
+.bcg-ps-now{
+    background-color:#161c3b;
+}
+
 
 
 
 /* sezione contatti social */
-.contatti-social{
-    background-color: rgb(203, 243, 164);
-    height: 500px
-}
 
 .icon-img{
     width: 150px;
     height: 150px;
-
 }
 
 .item-img{
-    width: 100%;
-    
+    width: 100%;    
 }
 
 
