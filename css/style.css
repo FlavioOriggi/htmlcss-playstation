@@ -20,19 +20,22 @@
 }
 
 /* SEZIONE MAIN */
-
-
-
-
 .bcg-ps-now{
     background-color:#161c3b;
 }
 
 
+/* sezione playstation now */
+.img-sx-ps-now{
+    width: 60%;
+    height: 80px;
+}
+.img-dx-ps-now{
+    width: 100%;
+}
 
 
 /* sezione contatti social */
-
 .icon-img{
     width: 150px;
     height: 150px;
@@ -41,7 +44,6 @@
 .item-img{
     width: 100%;    
 }
-
 
 /* SEZIONE FOOTER */
 .bcg-footer{
