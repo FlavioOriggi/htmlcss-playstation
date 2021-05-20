@@ -23,28 +23,12 @@
 
 
 /* SEZIONE FOOTER */
-footer{
+.bcg-footer{
     background-color: #00439c;
-}
-
-.item-up-footer{    
-    
-    background-color: rgb(160, 75, 100);
-   
 }
 
 .item-up-footer img{   
     width: 95px;
-
-}
-
-
-
-
-
-.content-down-footer{          
-    background-color: aqua;
-    border: 1px solid black;
 }
 
 .img-down-footer{    
