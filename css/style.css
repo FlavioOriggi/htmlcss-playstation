@@ -7,6 +7,11 @@
     padding: 100px 0;
 }
 
+.p_t100_b50{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
 .pt_50{
     padding-top: 50px;
 }
@@ -28,8 +33,11 @@
     background-position: cover;
     /* position: ; */
     padding: 50px 0;
-    height: 100%;  
+    height: 600px;  
     margin-top:94px   
+}
+.img-item-jumbo{
+    width: 70%;
 }
 .bcg_btn_jumbo{
     background-color: #cd3d0f;
@@ -41,6 +49,14 @@
 /* sezione ps5 */
 .icon-text-ps5{
     width: 100%;
+}
+
+/* sezione it takes two */
+.it-takes-two{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-position: cover;    
+    padding: 50px 0;    
+    height: 600px
 }
 
 
@@ -84,11 +100,9 @@
 .bcg-footer{
     background-color: #00439c;
 }
-
 .item-up-footer img{   
     width: 95px;
 }
-
 .img-down-footer{    
     width: 190px;
 }
