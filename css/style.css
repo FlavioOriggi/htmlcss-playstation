@@ -25,16 +25,23 @@
 /* sezione jumbotron */
 .jumbotron{
     background-image: url('../img/jumbo-bg.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: cover;
+    /* position: ; */
     padding: 50px 0;
-    height: 620px;  
+    height: 100%;  
     margin-top:94px   
 }
 .bcg_btn_jumbo{
     background-color: #cd3d0f;
 }
+.height-full{
+    height: 100%;
+}
 
+/* sezione ps5 */
+.icon-text-ps5{
+    width: 100%;
+}
 
 
 /* sezione nuove uscite */
@@ -52,7 +59,7 @@
 
 /* sezione ps store */
 .item-img-store{
-    width: 90%;
+    width: 100%;
 }
 
 /* sezione playstation now */
