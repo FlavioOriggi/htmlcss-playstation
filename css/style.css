@@ -24,10 +24,24 @@
 
 /* SEZIONE MAIN */
 
+/* sezione nuove uscite */
+.bcg-news{
+    background-color: #1f1f1f;
+}
+
+/* .icon-img-news{
+    width: 190px;
+} */
+
+.item-img-news{
+    width: 100%;
+}
+
+
+/* sezione ps plus */
 .bcg-ps-plus{
     background-color: #bebcbb;
 }
-
 
 /* sezione ps store */
 .item-img-store{
