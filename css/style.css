@@ -7,6 +7,9 @@
     padding: 100px 0;
 }
 
+.pt_50{
+    padding-top: 50px;
+}
 
 
 /*  SEZIONE HEADER  */
@@ -20,12 +23,22 @@
 }
 
 /* SEZIONE MAIN */
-.bcg-ps-now{
-    background-color:#161c3b;
+
+.bcg-ps-plus{
+    background-color: #bebcbb;
+}
+
+
+/* sezione ps store */
+.item-img-store{
+    width: 90%;
 }
 
 
 /* sezione playstation now */
+.bcg-ps-now{
+    background-color:#161c3b;
+}
 .img-sx-ps-now{
     width: 60%;
     height: 80px;
@@ -36,12 +49,12 @@
 
 
 /* sezione contatti social */
-.icon-img{
+.icon-img-social{
     width: 150px;
     height: 150px;
 }
 
-.item-img{
+.item-img-social{
     width: 100%;    
 }
 
