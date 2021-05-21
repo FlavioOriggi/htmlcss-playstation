@@ -23,17 +23,25 @@
 }
 
 /* SEZIONE MAIN */
+/* sezione jumbotron */
+.jumbotron{
+    background-image: url('../img/jumbo-bg.png');
+    padding: 2rem 0; 
+    height: 620px;  
+    margin-top:94px   
+}
+
+.bcg_btn_jumbo{
+    background-color: #cd3d0f;
+}
 
 /* sezione nuove uscite */
 .bcg-news{
     background-color: #1f1f1f;
 }
-
-
 .item-img-news{
     width: 100%;
 }
-
 
 /* sezione ps plus */
 .bcg-ps-plus{
@@ -44,7 +52,6 @@
 .item-img-store{
     width: 90%;
 }
-
 
 /* sezione playstation now */
 .bcg-ps-now{
@@ -58,12 +65,11 @@
     width: 100%;
 }
 
-
 /* sezione contatti social */
-
 .item-img-social{
     width: 100%;    
 }
+
 
 /* SEZIONE FOOTER */
 .bcg-footer{
