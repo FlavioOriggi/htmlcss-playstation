@@ -17,7 +17,7 @@
     <!-- SEZIONE HEADER -->
     <header class="fixed-top">
         
-        <!-- sezione superiore del header -->
+        <!-- sezione nera -->
         <div class="row">                 
             <div class="col-12 up-header bg-dark d-flex justify-content-end">
                 <img class="img-up-header me-3" src="img/sony_scritta.svg" alt="">
@@ -25,9 +25,8 @@
             </div>                
         </div>
 
-
-        <div class="row"> 
-            <!-- sezione navbar -->
+        <!-- sezione navbar -->
+        <div class="row">            
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
 
@@ -35,17 +34,16 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown px-3 fs-5 ">
-                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Giochi
-                                </a>
+                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Giochi</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
 
@@ -111,17 +109,17 @@
                         </ul>
 
                         <form class="d-flex">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                My PlayStation
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>                                      
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item dropdown fs-5">
+                                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">My PlayStation</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li> 
+                            </ul>
                             <button type="button" class="btn btn-dark rounded-pill fs-5 px-4 mx-4">Accedi</button>
                             <span><i class="fas fa-search p-2 fs-3 align-items-center"></i></span>
                         </form>
@@ -130,12 +128,6 @@
             </nav>
 
         </div>
-
-
-
-
-
-
     </header>
 
 
@@ -145,22 +137,17 @@
         <!-- sezione jumbotron -->
         <section class="jumbotron">
             <div class="container-xl">            
-                <div class="row"> 
+                <div class="row align-items-end"> 
                     
-                            <div class="col-12 col-lg-4 pt_50">                                  
-                                <img class="img-sx-ps-now" src="img/returnal-hero-banner-logo.png" alt="avatar">                    
-                                <h2 class="text-white py-4">Rompi il cerchio</h2>                                        
-                                <p class="text-white py-4">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thirller fantascientifico, disponibile in esclusiva su PS5.</p>
-                                <button type="button" class="btn py-2 bcg_btn_jumbo rounded-pill"><a class="text-white d-flex justify-content-center align-items-center text-decoration-none" href="#">Acquista ora</a></button>                          
-                                            
-                                    
-
-
-                                
-                            </div>
-                            <div class="d-none col-lg-4 d-lg-block"></div>
-                            <div class="d-none col-lg-4 d-lg-block"></div>
-                     
+                    <div class="col-12 col-lg-4 d-flex flex-wrap ">                                  
+                        <img class="img-item-jumbo" src="img/returnal-hero-banner-logo.png" alt="avatar">                    
+                        <h2 class="text-white my-3 ">Rompi il cerchio</h2>                                        
+                        <p class="text-white my-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thirller fantascientifico, disponibile in esclusiva su PS5.</p>
+                        <button type="button" class="btn  bcg_btn_jumbo rounded-pill"><a class="text-white d-flex justify-content-center align-items-center text-decoration-none" href="#">Acquista ora</a></button>                            
+                    </div>
+                            
+                    <div class="d-none col-lg-4 d-lg-block"></div>
+                    <div class="d-none col-lg-4 d-lg-block"></div>                     
                 </div>                
             </div>
         </section>
@@ -385,7 +372,7 @@
         <section class="bcg-ps-plus py_35">
             <div class="container-xl"> 
                 <div class="row align-items-center">
-                    <div class="col-12 col-md-6  jumbo-ps-now d-flex flex-wrap ">
+                    <div class="col-12 col-md-6 d-flex flex-wrap ">
                         <img class="img-sx-ps-now" src="img/ps-plus-logo.png" alt="avatar">                    
                         <p class="text-white py-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
                         <button type="button" class="btn btn-light rounded-pill"><a class="text-primary  d-flex justify-content-center align-items-center text-decoration-none" href="#">Esplora PlayStation Plus</a></button>                          

@@ -17,7 +17,6 @@
     height: 30px;
     width: 100%;
 }
-
 .up-header img{   
     width: 5%;
 }
@@ -26,14 +25,17 @@
 /* sezione jumbotron */
 .jumbotron{
     background-image: url('../img/jumbo-bg.png');
-    padding: 2rem 0; 
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
     height: 620px;  
     margin-top:94px   
 }
-
 .bcg_btn_jumbo{
     background-color: #cd3d0f;
 }
+
+
 
 /* sezione nuove uscite */
 .bcg-news{
