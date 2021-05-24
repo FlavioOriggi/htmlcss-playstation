@@ -3,6 +3,10 @@
     padding: 35px 0;
 }
 
+.py_65{
+    padding: 65px 0;
+}
+
 .py_100{
     padding: 100px 0;
 }
@@ -20,6 +24,15 @@
     height: 100%;
 }
 
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
 
 /*  SEZIONE HEADER  */
 .up-header{
@@ -29,6 +42,13 @@
 .up-header img{   
     width: 5%;
 }
+
+.line-divider{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
+
 
 /* SEZIONE MAIN */
 /* sezione jumbotron */
@@ -44,16 +64,24 @@
     width: 70%;
 }
 .bcg_btn_jumbo{
-    background-color: #cd3d0f;
+    background-color: #cd3d0f;    
 }
-
+.bcg_btn_jumbo:hover {    
+    border: 2px solid #5f0000;    
+    transform: translateY(1px);    
+}
+.bcg_btn_jumbo:active{
+    transform: translateY(1px);
+    border: 2px solid #5f0000;
+}
 .icon-jumbo {
     border-radius: 10px;
     transition: 0,8s;
     position: relative;
 }
 .icon-jumbo:hover {
-    bottom: 6px;     
+    bottom: 6px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 /* sezione ps5 */
@@ -68,11 +96,9 @@
     background-size: cover; 
     height: 600px;
 }
-
 .img-item-it-takes-two{
     width: 50%;
 }
-
 
 /* sezione nuove uscite */
 .bcg-news{
