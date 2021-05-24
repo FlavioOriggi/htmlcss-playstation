@@ -50,7 +50,11 @@
 
 /* sezione ps5 */
 .icon-text-ps5{
-    width: 100%;
+    width: 50%;
+}
+
+.icon-text-ps5-xs{
+    width: 80%;
 }
 
 /* sezione it takes two */
