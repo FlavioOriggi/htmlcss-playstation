@@ -30,10 +30,10 @@
 /* sezione jumbotron */
 .jumbotron{
     background-image: url('../img/jumbo-bg.png');
-    background-position: cover;
-    /* position: ; */
+    background-position: center;
+    background-size: cover;    
     padding: 50px 0;
-    height: 600px;  
+    height: 700px;  
     margin-top:94px   
 }
 .img-item-jumbo{
@@ -54,9 +54,10 @@
 /* sezione it takes two */
 .it-takes-two{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-    background-position: cover;    
+    background-position: center;
+    background-size: cover;   
     padding: 50px 0;    
-    height: 600px
+    height: 700px;
 }
 
 
@@ -106,3 +107,5 @@
 .img-down-footer{    
     width: 190px;
 }
+
+
