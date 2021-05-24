@@ -16,6 +16,10 @@
     padding-top: 50px;
 }
 
+.height-full{
+    height: 100%;
+}
+
 
 /*  SEZIONE HEADER  */
 .up-header{
@@ -42,9 +46,7 @@
 .bcg_btn_jumbo{
     background-color: #cd3d0f;
 }
-.height-full{
-    height: 100%;
-}
+
 
 /* sezione ps5 */
 .icon-text-ps5{
@@ -55,9 +57,12 @@
 .it-takes-two{
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
     background-position: center;
-    background-size: cover;   
-    padding: 50px 0;    
-    height: 700px;
+    background-size: cover; 
+    height: 600px;
+}
+
+.img-item-it-takes-two{
+    width: 50%;
 }
 
 
