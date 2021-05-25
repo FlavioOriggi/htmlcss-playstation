@@ -39,8 +39,8 @@
     height: 30px;
     width: 100%;
 }
-.up-header img{   
-    width: 5%;
+.up-header img{      
+    max-width: 80px;
 }
 
 .line-divider{
@@ -123,8 +123,8 @@
     background-color:#161c3b;
 }
 .img-sx-ps-now{
-    width: 60%;
-    height: 80px;
+    min-width: 150px;
+    max-width: 385px;
 }
 .img-dx-ps-now{
     width: 100%;
@@ -144,7 +144,8 @@
     width: 95px;
 }
 .img-down-footer{    
-    width: 190px;
+    min-width: 150px;
+    max-width: 200px;
 }
 
 
